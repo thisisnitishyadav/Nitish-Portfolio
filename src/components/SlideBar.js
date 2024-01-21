@@ -4,6 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { useState } from "react";
+import XIcon from '@mui/icons-material/X';
 
 export default function Slidebar() {
   const [select, setSelect] = useState(0);
@@ -77,38 +78,27 @@ export default function Slidebar() {
         data-aos-delay="2300"
       >
         <div
-          onClick={() =>
-            window.open("https://github.com/ansh1423", "_blank")
-          }
-        >
-          <GitHubIcon className="cursor-pointer hover:scale-105" />
-        </div>
-        <div
-          onClick={() =>
-            window.open("", "_blank")
-          }
-        >
-          {" "}
-          <InstagramIcon className="cursor-pointer hover:scale-105" />
-        </div>
-        <div
-          onClick={() =>
-            window.open(
-              "",
-              "_blank"
-            )
-          }
-        >
-          {" "}
-          <LinkedInIcon className="cursor-pointer hover:scale-105" />
-        </div>
-        <div
-          onClick={() =>
-            window.open("https://www.linkedin.com/in/ansh-yadav-abb8a2239/", "_blank")
-          }
-        >
-          <FacebookIcon className="cursor-pointer hover:scale-105" />
-        </div>
+                onClick={() =>
+                  window.open("https://github.com/ansh1423", "_blank")
+                }
+              >
+                <GitHubIcon className="cursor-pointer hover:scale-105" />
+              </div>
+              <div
+                onClick={() =>
+                  window.open("https://www.linkedin.com/in/anshyadav-merndeveloper/", "_blank")
+                }
+              >
+                <LinkedInIcon className="cursor-pointer hover:scale-105" />
+              </div>
+              <div
+                onClick={() =>
+                  window.open("https://twitter.com/ErAnshYadav1", "_blank")
+                }
+              >
+                <XIcon className="cursor-pointer hover:scale-105" />
+              </div>
+            
       </div>
     </div>
   );

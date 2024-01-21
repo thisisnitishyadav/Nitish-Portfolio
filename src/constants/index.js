@@ -4,11 +4,20 @@ export const projects = [
     desc: "An API built with with NextTS and Tailwind CSS to help website builders build their websites about Plants-vs-Zombies-2 easily! Data has been scraped from fandom websites and all data are  error free",
     tags: [
       {
-        name: "NextTs",
+        name: "NextJs",
         color: "red-600",
       },
+     
       {
-        name: "TailwindCSS",
+        name: "TypeScript",
+        color: "yellow-600",
+      },
+      {
+        name: "Clean UI",
+        color: "green-600",
+      },
+      {
+        name: "Responsive",
         color: "green-600",
       },
     ],
@@ -25,68 +34,76 @@ export const projects = [
         color: "red-600",
       },
       {
+        name: "Javascript",
+        color: "red-600",
+      },
+      {
         name: "Redux",
         color: "green-600",
       },
       {
         name: "Tailwind CSS",
+        color: "green-600",
+      },
+      {
+        name: "MongoDB",
         color: "yellow-600",
+      },
+      {
+        name: "NodeJs",
+        color: "yellow-600",
+      },
+      {
+        name: "ExpressJs",
+        color: "yellow-600",
+      },
+    ],
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlje5fHDHvGUqZy4ilm0VbEjBJECgJ1TOqKQ&usqp=CAU",
+    link: "https://mochi-shoes.vercel.app/",
+    code: "https://github.com/ansh1423/MochiShoes",
+  },
+  {
+    title: "Stock Market",
+    desc: "Stock Market Website done with ReactJs as Frontend and Express as Backend. This websites gives practice for people those who want to start using stock market. It is based on realtime update of stock value.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "red-600",
+      },
+      {
+        name: "ExpressJs",
+        color: "green-600",
       },
       {
         name: "MongoDB",
         color: "blue-800",
       },
     ],
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlje5fHDHvGUqZy4ilm0VbEjBJECgJ1TOqKQ&usqp=CAU",
-    link: "https://www.mochishoes.com/",
-    code: "https://github.com/ansh1423/EcommerceWeb",
+    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109032447783469097/image.png",
+    link: "https://stock-market-seven.vercel.app/",
+    code: "https://github.com/ansh1423/StockMarket",
   },
-  // {
-  //   title: "Exploiter(deprecated)",
-  //   desc: "This is the simple multi-featured discord bot which is in more than 90+ servers that resembles lords mobile as mini game. It contains the featiures of many bots such as dyno,carl-bot,mee6 etc.It helps to authorize the users, audit the messages and can also be used for other server developments and also for mini-games.  ",
-  //   tags: [
-  //     {
-  //       name: "Python",
-  //       color: "red-600",
-  //     },
-  //     {
-  //       name: "Discord.py",
-  //       color: "green-600",
-  //     },
-  //     {
-  //       name: "discord-interactions",
-  //       color: "yellow-600",
-  //     },
-  //     {
-  //       name: "Flask",
-  //       color: "blue-800",
-  //     },
-  //   ],
-  //   img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109031291522928670/Exploiter.png",
-  //   link: "https://drive.google.com/file/d/1npEOuOhQh-1zRiLB9fFn-6ORTwd1gZkl/view",
-  //   code: "https://github.com/daniel-jebarson/EXPLOITER",
-  // },
-  // {
-  //   title: "Stock Market",
-  //   desc: "Stock Market Website done with ReactJs as Frontend and Express as Backend. This websites gives practice for people those who want to start using stock market. It is based on realtime update of stock value.",
-  //   tags: [
-  //     {
-  //       name: "ReactJs",
-  //       color: "red-600",
-  //     },
-  //     {
-  //       name: "ExpressJs",
-  //       color: "green-600",
-  //     },
-  //     {
-  //       name: "MongoDB",
-  //       color: "blue-800",
-  //     },
-  //   ],
-  //   img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109032447783469097/image.png",
-  //   link: "https://stock-market-seven.vercel.app/",
-  //   code: "https://github.com/daniel-jebarson/Stock-Market",
-  // },
+  {
+    title: "Taxi Booking Service",
+    desc: "Embark on a futuristic journey with our Taxi Booking Service, driven by the power of Next.js 14 and Hypergraph. Experience lightning-fast performance, dynamic real-time updates, and unparalleled reliability. Revolutionize your travel plans with a seamless fusion of cutting-edge technology for a ride-hailing experience like never before.",
+    tags: [
+      {
+        name: "NextJs 14",
+        color: "red-600",
+      },
+      {
+        name: "Hypergraph",
+        color: "green-600",
+      },
+      {
+        name: "Tailwind Css",
+        color: "blue-800",
+      },
+    ],
+    img: "https://images.unsplash.com/photo-1599278340576-bff6a4c8f3a1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHRheGl8ZW58MHx8MHx8fDA%3D",
+    link: "https://taxi-booking-5gx2.vercel.app/",
+    code: "https://github.com/ansh1423/taxi-booking",
+  },
   {
     title: "Education Website",
     desc: "This is the education website. In this website you can find admit card ,result and information of the school.",
@@ -96,11 +113,20 @@ export const projects = [
         color: "red-600",
       },
       {
-        name: "MaterialUI",
+        name: "Javascript",
+        color: "red-600",
+      },
+      
+      {
+        name: "Responsive",
         color: "green-600",
       },
       {
-        name: "TaiwindCss",
+        name: "Clean UI",
+        color: "green-600",
+      },
+      {
+        name: "TaiwindCSS",
         color: "yellow-600",
       },
       
