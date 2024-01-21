@@ -52,18 +52,18 @@ export default function Contact(){
   return (
     <div
       id="contact"
-      className="flex text-center flex-col gap-12 mt-10 min-h-screen overflow-hidden"
+      className="flex text-center max-md:mb-10 flex-col gap-12 mt-10 min-h-screen overflow-hidden"
     >
       <div className="text-5xl font-bold" data-aos={"fade"}>
         Contact
       </div>
-      <div className="flex flex-row  ">
-        <div className="flex-auto  w-32 pl-10 overflow-visible">
+      <div className="flex flex-row  max-md:flex-col ">
+        <div className="flex-auto  w-32 pl-10 max-md:w-[95%] overflow-visible">
           <form className="slide-up" ref={form} onSubmit={sendEmail}>
             <label class="block mb-2 text-2xl font-semibold mt-3  text-white ">
               Get in Touch
             </label>
-            <hr className="border-cyan-700 border-2 w-1/3 mx-auto bg-cyan-700" />
+            <hr className="border-cyan-700  w-1/3 mx-auto bg-cyan-700" />
             <div class="flex pt-9">
               <span class="inline-flex items-center px-3 text-sm  border border-r-0  rounded-l-md bg-gray-600 text-gray-400 border-gray-600">
                 <PersonIcon />
@@ -117,7 +117,7 @@ export default function Contact(){
              </div>
           </form>
         </div>
-        <div className="flex-auto w-80  flex flex-col justify-center text-center items-center  gap-1">
+        <div className="flex-auto w-80 max-md:w-full  flex flex-col justify-center text-center items-center  gap-1">
           <div data-aos={"fade-left"}>
             <lottie-player
               autoplay
@@ -127,8 +127,9 @@ export default function Contact(){
               style={{ width: "350px" }}
             />
           </div>
-          <div data-aos={"slide-up"} className="text-center">
-            <div className="text-center mt-2 text-3xl font-bold">Follow Me</div>
+          <div className="max-md:w-full max-md:flex max-md:justify-center max-md:items-center">
+          <div data-aos={"slide-up"} className="text-center ">
+            <div className="text-center mt-2 text-3xl max-md:text-2xl font-bold">Follow Me</div>
             <div className="text-white flex flex-row gap-7 w-fit mx-auto pt-4">
               <div
                 onClick={() =>
@@ -158,6 +159,7 @@ export default function Contact(){
               <CopyrightIcon className="cursor-pointer mx-1" />
               <span>2023 Ansh Yadav</span>
             </div>
+          </div>
           </div>
         </div>
         <ToastContainer

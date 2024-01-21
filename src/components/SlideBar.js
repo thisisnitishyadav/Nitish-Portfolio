@@ -9,13 +9,13 @@ import XIcon from '@mui/icons-material/X';
 export default function Slidebar() {
   const [select, setSelect] = useState(0);
   return (
-    <div className="flex-none  bg-black h-screen min-w-[25%] fixed ">
+    <div className="flex-none  bg-black h-screen max-md:h-auto max-md:py-7 min-w-[25%] max-md:relative max-md:min-w-[100%]  max fixed ">
       <div className="nav flex  text-white text-lg mt-10 flex-col align-middle justify-center text-center w-full gap-5 overflow-hidden">
         <div data-aos="slide-down">
           <img
             src={require("../assets/images/MyImage.png")}
             alt="Ansh Yadav"
-            className="rounded-full border-solid cursor-pointer  border-[8px] border-stone-600 min-h-fit mx-auto  max-w-[190px]"
+            className="rounded-full border-solid cursor-pointer  border-[8px] border-stone-600 min-h-fit mx-auto max-md:w-[140px]  max-w-[190px]"
           />
           <h3 className="text-white name py-4 font-medium ">
             Ansh Yadav

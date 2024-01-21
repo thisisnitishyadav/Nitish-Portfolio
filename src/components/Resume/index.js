@@ -7,7 +7,7 @@ export default function Resume() {
       <div className="text-5xl font-bold py-8" data-aos={"slide-down"}>
         Resume
       </div>
-      <div className="grid grid-cols-2 gap-7 mt-7">
+      <div className="grid grid-cols-2 max-md:grid-cols-1 max-md:mx-4 gap-7 mt-7">
         <ol class="relative border-l  border-gray-700 ml-9 mb-6">
         <li data-aos="zoom-in" data-aos-offset={"-15"} data-aos-delay="1300" className="mt-8">
             <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-gray-900 bg-blue-900">
@@ -31,7 +31,7 @@ export default function Resume() {
             <time class="block mb-2 text-sm font-mono leading-none text-white">
               B.Tech(Computer Science and Enginnering)
             </time>
-            <p class="text-base font-normal text-gray-400">
+            <p class="text-base max-md:text-[14px] font-normal text-gray-400">
             <ul class="">
   <li>Currently studying at Gurukula Kangri Vishwavidyalaya.</li>
   <li>Maintaining a stellar 9.0 CGPA.</li>
@@ -76,13 +76,13 @@ export default function Resume() {
                 ></path>
               </svg>
             </span>
-            <h3 class="flex text-center items-center mb-1 text-lg font-semibold  text-white ml-28">
+            <h3 class="flex text-center items-center mb-1 text-lg font-semibold  text-white max-md:ml-14 ml-28">
             Data Structures and Algorithms
             </h3>
             <time class="block pt-1 pb-3  text-sm font-normal leading-none  text-gray-500">
               Completed on July 7th, 2023
             </time>
-            <p class="mb-4 text-base font-normal  text-gray-400">
+            <p class="mb-4 text-base max-md:text-[14px] font-normal  text-gray-400">
             I possess exceptional problem-solving skills, demonstrated through my ability to tackle complex challenges efficiently. With a strong analytical mindset and a track record of innovative solutions, I thrive in finding effective answers to diverse problems..
             </p>
             <a
@@ -133,7 +133,7 @@ export default function Resume() {
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
               Completed on January  28th, 2022
             </time>
-            <p class="text-base font-normal text-gray-400">
+            <p class="text-base max-md:text-[14px] font-normal text-gray-400">
                Collaborated on a dynamic team, offering innovative solutions.
                Gained proficiency in responsive website design with various frameworks.
                Stayed current with tech trends, enhancing project efficiency.
@@ -181,7 +181,7 @@ export default function Resume() {
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
               Completed on  28th, 2024
             </time>
-            <p class="text-base font-normal text-gray-400">
+            <p class="text-base max-md:text-[14px] font-normal text-gray-400">
             I'm actively engaged in expanding my skill set in frontend development by exploring various libraries. I'm proficient in JavaScript, React.js, and Next.js, and I specialize in API integration. On the backend, I'm honing my expertise in Node.js, Express, and MongoDB, consistently creating diverse projects to enhance my knowledge.
             </p>
             <a
@@ -227,7 +227,7 @@ export default function Resume() {
             <time class="block mb-2 text-sm font-mono leading-none text-white">
               Web Developer
             </time>
-            <p class="text-base font-normal text-gray-400">
+            <p class="text-base max-md:text-[14px] font-normal text-gray-400">
             As a Web Developer at TechPyro, I craft dynamic and visually engaging websites using cutting-edge technologies. I collaborate with cross-functional teams, ensuring seamless integration and delivering high-quality web experiences.
             </p>
             <a
