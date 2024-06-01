@@ -13,12 +13,12 @@ export default function Slidebar() {
       <div className="nav flex  text-white text-lg mt-10 flex-col align-middle justify-center text-center w-full gap-5 overflow-hidden">
         <div data-aos="slide-down">
           <img
-            src={require("../assets/images/MyImage.png")}
-            alt="Ansh Yadav"
-            className="rounded-full border-solid cursor-pointer  border-[8px] border-stone-600 min-h-fit mx-auto max-md:w-[140px]  max-w-[190px]"
+            src={require("../assets/images/image.jpeg")}
+            alt="Nitish Yadav"
+            className="rounded-full border-solid cursor-pointer border-[8px] border-stone-600 min-h-fit  mx-auto max-md:w-[140px]  max-w-[190px]"
           />
           <h3 className="text-white name py-4 font-medium ">
-            Ansh Yadav
+            Nitish Yadav
           </h3>
         </div>
         <p
@@ -79,21 +79,21 @@ export default function Slidebar() {
       >
         <div
                 onClick={() =>
-                  window.open("https://github.com/ansh1423", "_blank")
+                  window.open("https://github.com/thisisnitishyadav", "_blank")
                 }
               >
                 <GitHubIcon className="cursor-pointer hover:scale-105" />
               </div>
               <div
                 onClick={() =>
-                  window.open("https://www.linkedin.com/in/anshyadav-merndeveloper/", "_blank")
+                  window.open("https://www.linkedin.com/in/nitish-yadav-68073720b/", "_blank")
                 }
               >
                 <LinkedInIcon className="cursor-pointer hover:scale-105" />
               </div>
               <div
                 onClick={() =>
-                  window.open("https://twitter.com/ErAnshYadav1", "_blank")
+                  window.open("https://x.com/thisisnitishydv", "_blank")
                 }
               >
                 <XIcon className="cursor-pointer hover:scale-105" />

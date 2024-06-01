@@ -29,13 +29,13 @@ export default function Resume() {
             Education
             </h3>
             <time class="block mb-2 text-sm font-mono leading-none text-white">
-              B.Tech(Computer Science and Enginnering)
+              B.Tech in Computer Science and Enginnering
             </time>
             <p class="text-base max-md:text-[14px] font-normal text-gray-400">
             <ul class="">
-  <li>Currently studying at Gurukula Kangri Vishwavidyalaya.</li>
-  <li>Maintaining a stellar 9.0 CGPA.</li>
-  <li>Pursuing my academic degree through Maa Durga Ji Vidyalaya.</li>
+  <li>Senior undergraduate at Gurukula Kangri University, Haridwar</li>
+  <li>Maintained GPA of 8.8 through my academic career.</li>
+  <li></li>
 </ul>
 
             </p>
@@ -125,19 +125,20 @@ export default function Resume() {
             </span>
             
             <h3 class="mb-1 text-lg font-semibold text-white" className="">
-            Internship at Mindrops
+            Internship at Techpyro
             </h3>
             <time class="block mb-2 text-sm font-mono leading-none text-white">
               Trainee-Web Developer
             </time>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
-              Completed on January  28th, 2022
+              Completed on May 28th, 2024
             </time>
             <p class="text-base max-md:text-[14px] font-normal text-gray-400">
-               Collaborated on a dynamic team, offering innovative solutions.
-               Gained proficiency in responsive website design with various frameworks.
-               Stayed current with tech trends, enhancing project efficiency.
-            </p>
+            Worked on Front-end development of multiple projects like E-Commerce, Hotel, School Websites.</p>
+            <p class="text-base max-md:text-[14px] font-normal text-gray-400">
+              Crafted the UI and UX to ensure a visually appealing and responsive design and built the backend APIs </p>
+              <p class="text-base max-md:text-[14px] font-normal text-gray-400">
+              Working on Back-end development Building robust and scalable backend systems that power your applications with efficiency</p>
             <a
               target="_blank"
               rel="noreferrer"
@@ -205,7 +206,7 @@ export default function Resume() {
               Download Certificate
             </a>
           </li>
-          <li data-aos="zoom-in" data-aos-offset={"-15"} data-aos-delay="1300" className="mt-8">
+          {/* <li data-aos="zoom-in" data-aos-offset={"-15"} data-aos-delay="1300" className="mt-8">
             <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-gray-900 bg-blue-900">
               <svg
                 aria-hidden="true"
@@ -250,28 +251,29 @@ export default function Resume() {
               </svg>{" "}
               Download Certificate
             </a>
-          </li>
+          </li> */}
          
         </ol>
 
         <div className="flex flex-col text-center" data-aos="slide-up">
           <div className="text-3xl font-bold py-3">My Skills</div>
           <div className="ml-16 flex flex-col gap-8 mt-6">
-            <BarGraph name={"JavaScript"} percent={65} />
-            <BarGraph name={"React"} percent={75} />
-            <BarGraph name={"Tailwind"} percent={60} />
-            <BarGraph name={"Java"} percent={80} />
-            <BarGraph name={"NextJs"} percent={60} />
-            <BarGraph name={"MangoDB"} percent={80} />
-            <BarGraph name={"ExpressJs"} percent={85} />
+            <BarGraph name={"JavaScript"} percent={85} />
+            <BarGraph name={"React"} percent={80} />
+            <BarGraph name={"Tailwind-CSS"} percent={90} />
+            <BarGraph name={"Java"} percent={75} />
+            <BarGraph name={"C++"} percent={70} />
+            <BarGraph name={"NextJs"} percent={80} />
+            <BarGraph name={"MangoDB"} percent={85} />
+            <BarGraph name={"ExpressJs"} percent={70} />
             <BarGraph name={"HTML/CSS"} percent={85} />
             <BarGraph name={"SQL"} percent={65} />
-            <BarGraph name={"DBMS"} percent={40} />
+            <BarGraph name={"DBMS"} percent={60} />
           </div>
 
           <a
-            // href={require("../../assets/files/Ansh_Yadav_Resume")}
-            download={"Ansh_Yadav_Resume"}
+            //  href={require("../../assets/files/Nitish_Yadav_Resume")}
+            download={"Nitish_Yadav_Resume"}
             class="inline-flex items-center px-6 py-2 mt-12 mx-auto w-fit text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
           >
             Download CV <DownloadIcon />

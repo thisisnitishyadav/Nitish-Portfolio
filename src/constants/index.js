@@ -1,33 +1,45 @@
+
 export const projects = [
   {
-    title: "Plants vs Zombies API",
-    desc: "An API built with with NextTS and Tailwind CSS to help website builders build their websites about Plants-vs-Zombies-2 easily! Data has been scraped from fandom websites and all data are  error free",
+    title: "Campground Management System",
+    desc: "Developed a Web Application for Campground Management using Express Framework of Node and MVC architecture.Used MongoDB database, wrote queries to support CRUD operations and used JWT for authentication & ODM library",
     tags: [
       {
-        name: "NextJs",
+        name: "ExpressJs",
         color: "red-600",
       },
-     
       {
-        name: "TypeScript",
+        name: "JavaScript",
         color: "yellow-600",
       },
       {
-        name: "Clean UI",
+        name: "MongoDB",
         color: "green-600",
       },
       {
-        name: "Responsive",
+        name: "JWT",
+        color: "green-600",
+      },
+      {
+        name: "NodeJs",
+        color: "red-600",
+      },
+      {
+        name: "AWS",
+        color: "yellow-600",
+      },
+      {
+        name: "Mongoose",
         color: "green-600",
       },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109025615442608168/pvz.png",
-    link: "https://pvz-2-api.vercel.app/",
-    code: "https://github.com/ansh1423/plantname",
+    img: "https://plus.unsplash.com/premium_photo-1681823359242-2d61fbd1ca37?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    link: "https://bo-at-clone-frontend.vercel.ap/",
+    code: "https://github.com/thisisnitishyadav/boAt-Clone-backend",
   },
   {
-    title: "Mochi-Shoes",
-    desc: "This is an e-commerce website where you can purchase shoes, built using Next.js, and it is also responsive",
+    title: "SoundHub",
+    desc: "Implemented key features, enhancing the platform with login, signup, cart, checkout, payment, order, and order details pages, as well as Google authentication, and a fully responsive design with crafted UI and UX Ensured responsiveness and streamlined product ordering with secure payment option of Razorpay",
     tags: [
       {
         name: "NextJs",
@@ -58,13 +70,13 @@ export const projects = [
         color: "yellow-600",
       },
     ],
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlje5fHDHvGUqZy4ilm0VbEjBJECgJ1TOqKQ&usqp=CAU",
-    link: "https://mochi-shoes.vercel.app/",
-    code: "https://github.com/ansh1423/MochiShoes",
+    img:"https://images.unsplash.com/photo-1614860243518-c12eb2fdf66c?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ",
+    link: "https://bo-at-clone-frontend.vercel.app/",
+    code: "https://github.com/thisisnitishyadav/boAt-Clone-frontend",
   },
   {
-    title: "Stock Market",
-    desc: "Stock Market Website done with ReactJs as Frontend and Express as Backend. This websites gives practice for people those who want to start using stock market. It is based on realtime update of stock value.",
+    title: "Nyka Blog Website",
+    desc: "Developed a dynamic React.js and TypeScript project, utilizing the GraphQL API for real-time data retrieval. Implemented a user-friendly blog website performance through strategic optimization, featuring blog visibility through APIs",
     tags: [
       {
         name: "ReactJs",
@@ -78,10 +90,22 @@ export const projects = [
         name: "MongoDB",
         color: "blue-800",
       },
+      {
+        name: "NodeJs",
+        color: "red-600",
+      },
+      {
+        name: "RESTful API",
+        color: "green-600",
+      },
+      {
+        name: "MySQL",
+        color: "blue-800",
+      },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109032447783469097/image.png",
-    link: "https://stock-market-seven.vercel.app/",
-    code: "https://github.com/ansh1423/StockMarket",
+    img: "https://images.unsplash.com/photo-1612817288484-6f916006741a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    link: "https://stock-market-seven.vercel.ap/",
+    code: "https://github.com/thisisnitishyadav/Techpyro-Blog-Website",
   },
   {
     title: "Taxi Booking Service",

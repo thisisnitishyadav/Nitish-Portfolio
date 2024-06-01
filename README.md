@@ -26,7 +26,7 @@ This is a repository for my personal portfolio website, showcasing my skills, pr
 
 To run the website locally, follow these steps:
 
-1. Clone this repository to your local machine using `git clone https://github.com/ansh1423/ansh_Portfolio`
+1. Clone this repository to your local machine using `git clone https://github.com/thisisnitishyadav/Nitish-Portfolio`
 2. Navigate to the project's directory: `cd `
 3. Then install packages and run it using the below commands
 ```
@@ -43,6 +43,6 @@ I appreciate any feedback, suggestions, or contributions to enhance my portfolio
 
 ## Contact
 
-If you would like to get in touch with me, you can reach me via email at [Mymail](mailto:anshyadav42495@gmail.com). You can also find more information about me and my work on my [LinkedIn](https://www.linkedin.com/in/ansh-yadav-reactdeveloper/) profile.
+If you would like to get in touch with me, you can reach me via email at [Mymail](mailto:thisisnitishyadav@gmail.com). You can also find more information about me and my work on my [LinkedIn](https://www.linkedin.com/in/nitish-yadav-68073720b/) profile.
 
 Thank you for visiting my portfolio website! I hope you find it informative and engaging.

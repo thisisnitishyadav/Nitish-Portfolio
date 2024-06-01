@@ -1,6 +1,6 @@
 {
-  "homepage": "https://daniel-jebarson.github.io",
-  "name": "portfolio",
+  "homepage":"https://daniel-jebarson.github.io",
+  "name": "nitish-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

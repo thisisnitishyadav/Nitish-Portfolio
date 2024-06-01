@@ -133,21 +133,21 @@ export default function Contact(){
             <div className="text-white flex flex-row gap-7 w-fit mx-auto pt-4">
               <div
                 onClick={() =>
-                  window.open("https://github.com/ansh1423", "_blank")
+                  window.open("https://github.com/thisisnitishyadav", "_blank")
                 }
               >
                 <GitHubIcon className="cursor-pointer hover:scale-105" />
               </div>
               <div
                 onClick={() =>
-                  window.open("https://www.linkedin.com/in/anshyadav-merndeveloper/", "_blank")
+                  window.open("https://www.linkedin.com/in/nitish-yadav-68073720b/", "_blank")
                 }
               >
                 <LinkedInIcon className="cursor-pointer hover:scale-105" />
               </div>
               <div
                 onClick={() =>
-                  window.open("https://twitter.com/ErAnshYadav1", "_blank")
+                  window.open("https://x.com/thisisnitishydv", "_blank")
                 }
               >
                 <XIcon className="cursor-pointer hover:scale-105" />
@@ -157,7 +157,7 @@ export default function Contact(){
             <div className="mt-6 italic text-sm font-medium text-blue-500 ">
               <span className=" pl-1 ">Copyright</span>
               <CopyrightIcon className="cursor-pointer mx-1" />
-              <span>2023 Ansh Yadav</span>
+              <span>2023 Nitish Yadav</span>
             </div>
           </div>
           </div>
