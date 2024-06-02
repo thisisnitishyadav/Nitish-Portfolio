@@ -33,7 +33,7 @@ export default function Contact(){
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_f7ex5px', 'template_nwgy6mn', form.current, 'JZNdHjqwiqgfbbIWV')
+    emailjs.sendForm('service_qvlnbpy', 'template_ucjzzxi', form.current, 'qkNSW5PzKSbLZjXlC')
       .then((result) => {
         console.log(result.text);
         toast.success("Email sent successfully!");
@@ -155,7 +155,7 @@ export default function Contact(){
             
             </div>
             <div className="mt-6 italic text-sm font-medium text-blue-500 ">
-              <span className=" pl-1 ">Copyright</span>
+              <span className="pl-1 ">Copyright</span>
               <CopyrightIcon className="cursor-pointer mx-1" />
               <span>2023 Nitish Yadav</span>
             </div>
