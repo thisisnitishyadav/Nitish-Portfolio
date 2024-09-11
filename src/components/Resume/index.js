@@ -42,7 +42,7 @@ export default function Resume() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/15yV3X1rAcQVqSDcoH7g4RvieD4EYpEXI/view?google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3Db7713712b1b126a1:TM%3D1694001629:C%3Dr:IP%3D2409:4085:809e:9820:95df:7550:2dbe:d67c-:S%3D6KBlF5dM4z9XY8ok4xfou9c%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DWed,+06-Sep-2023+15:00:29+GMT"
+              href="https://drive.google.com/file/d/1nb4J5d9jIw8hEEzCzDEQhAaW20dC-6j6/view?usp=sharing"
               class="inline-flex items-center px-4 py-2 mt-5 text-sm font-medium border rounded-lg focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
             >
               <svg
@@ -80,13 +80,13 @@ export default function Resume() {
             Data Structures and Algorithms
             </h3>
             <time class="block pt-1 pb-3  text-sm font-normal leading-none  text-gray-500">
-              Completed on July 7th, 2023
+              Programming in C++ & Java
             </time>
             <p class="mb-4 text-base max-md:text-[14px] font-normal  text-gray-400">
             I possess exceptional problem-solving skills, demonstrated through my ability to tackle complex challenges efficiently. With a strong analytical mindset and a track record of innovative solutions, I thrive in finding effective answers to diverse problems..
             </p>
             <a
-              href=""
+              href="https://leetcode.com/u/thisisnitishyadav/"
               target="_blank"
               rel="noreferrer"
               class="inline-flex items-center px-4 py-2 mt-2 text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
@@ -124,25 +124,25 @@ export default function Resume() {
               </svg>
             </span>
             
-            <h3 class="mb-1 text-lg font-semibold text-white" className="">
-            Internship at Techpyro
+            <h3 class="mb-1 text-lg font-bold text-white" className="">
+               Backend Developer  
             </h3>
             <time class="block mb-2 text-sm font-mono leading-none text-white">
-              Trainee-Web Developer
+             Internship at SharpCareer Technologies
             </time>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
               Completed on May 28th, 2024
             </time>
             <p class="text-base max-md:text-[14px] font-normal text-gray-400">
-            Worked on Front-end development of multiple projects like E-Commerce, Hotel, School Websites.</p>
+            Team Leader of Full Stack Project and Developed & maintained Backend with MVC architecture using Express Framework.</p>
             <p class="text-base max-md:text-[14px] font-normal text-gray-400">
-              Crafted the UI and UX to ensure a visually appealing and responsive design and built the backend APIs </p>
+            Implemented OAuth for authentication and authorization ensuring secure access control ,used FastAPI for building APIs.</p>
               <p class="text-base max-md:text-[14px] font-normal text-gray-400">
-              Working on Back-end development Building robust and scalable backend systems that power your applications with efficiency</p>
+            Tools & Techonologies : Node.js, Express.js, MVC, Fast-APIs, OAuth2, MongoDB, Docker, Kubernetes, Jenkins, AWS.</p>
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/15yV3X1rAcQVqSDcoH7g4RvieD4EYpEXI/view?google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3Db7713712b1b126a1:TM%3D1694001629:C%3Dr:IP%3D2409:4085:809e:9820:95df:7550:2dbe:d67c-:S%3D6KBlF5dM4z9XY8ok4xfou9c%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DWed,+06-Sep-2023+15:00:29+GMT"
+              href="https://drive.google.com/file/d/1RwAPWBlmYVgSN0SGBXgCErb8_FdwkHy2/view?usp=sharing"
               class="inline-flex items-center px-4 py-2 mt-5 text-sm font-medium border rounded-lg focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
             >
               <svg
@@ -176,17 +176,33 @@ export default function Resume() {
                 ></path>
               </svg>
             </span>
+
             <h3 class="mb-1 text-lg font-semibold text-white">
-            MERN Stack Developer
+            Full Stack Web Developer
             </h3>
+            <time class="block mb-2 text-sm font-mono leading-none text-white">
+             Internship at TechPyro
+            </time>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
-              Completed on  28th, 2024
+              Completed on May 30th, 2024
             </time>
             <p class="text-base max-md:text-[14px] font-normal text-gray-400">
-            I'm actively engaged in expanding my skill set in frontend development by exploring various libraries. I'm proficient in JavaScript, React.js, and Next.js, and I specialize in API integration. On the backend, I'm honing my expertise in Node.js, Express, and MongoDB, consistently creating diverse projects to enhance my knowledge.
+            Worked on Front-end development of multiple projects like E-Commerce, Hotel, School Websites.
+            </p>
+            <p class="text-base max-md:text-[14px] font-normal text-gray-400">
+            Worked on Back-end development Building robust and scalable backend systems that power your applications with efficiency.
+            </p>
+            <p class="text-base max-md:text-[14px] font-normal text-gray-400">
+            Frontend Technologies : HTML, CSS, Tailwind-CSS, Material-UI, JavaScript, TypeScript, React.js, Redux, Next.js .
+            </p>
+            <p class="text-base max-md:text-[14px] font-normal text-gray-400">
+            Backend Technologies: Node.js, Express.js, RESTful-API, GraphQL, JWT, SQL(MySQL), NoSQL(MongoDB), Kubernetes.
+            </p>
+            <p class="text-base max-md:text-[14px] font-normal text-gray-400">
+            DevOps Knowledge : CI/CD pipelines, containerization (Docker), AWS-Cloud and version control (Git & Github).
             </p>
             <a
-              href=""
+              href="https://drive.google.com/file/d/12O-iJpnghzuYPOsHMEvMqU_BFmg8Y4Nt/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               class="inline-flex items-center px-4 py-2 mt-5 text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
@@ -259,20 +275,21 @@ export default function Resume() {
           <div className="text-3xl font-bold py-3">My Skills</div>
           <div className="ml-16 flex flex-col gap-8 mt-6">
             <BarGraph name={"JavaScript"} percent={85} />
-            <BarGraph name={"React"} percent={80} />
-            <BarGraph name={"Tailwind-CSS"} percent={90} />
+            <BarGraph name={"Python"} percent={75} />
+            <BarGraph name={"React"} percent={90} />
             <BarGraph name={"Java"} percent={75} />
             <BarGraph name={"C++"} percent={70} />
-            <BarGraph name={"NextJs"} percent={80} />
+            <BarGraph name={"NextJs"} percent={90} />
+            <BarGraph name={"NodeJs"} percent={70} />
+            <BarGraph name={"ExpressJs"} percent={80} />
+            <BarGraph name={"HTML/CSS"} percent={95} />
             <BarGraph name={"MangoDB"} percent={85} />
-            <BarGraph name={"ExpressJs"} percent={70} />
-            <BarGraph name={"HTML/CSS"} percent={85} />
-            <BarGraph name={"SQL"} percent={65} />
-            <BarGraph name={"DBMS"} percent={60} />
+            <BarGraph name={"mySQL"} percent={65} />
+            <BarGraph name={"AWS"} percent={70} />
           </div>
 
           <a
-            //  href={require("../../assets/files/Nitish_Yadav_Resume")}
+            href='https://drive.google.com/file/d/1kSHa5Fz6HUmWqewyKxAxm3zb0ws3uCsp/view'
             download={"Nitish_Yadav_Resume"}
             class="inline-flex items-center px-6 py-2 mt-12 mx-auto w-fit text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
           >

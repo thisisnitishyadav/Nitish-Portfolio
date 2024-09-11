@@ -1,8 +1,6 @@
 import "../App.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import { useState } from "react";
 import XIcon from '@mui/icons-material/X';
 
@@ -10,10 +8,10 @@ export default function Slidebar() {
   const [select, setSelect] = useState(0);
   return (
     <div className="flex-none  bg-black h-screen max-md:h-auto max-md:py-7 min-w-[25%] max-md:relative max-md:min-w-[100%]  max fixed ">
-      <div className="nav flex  text-white text-lg mt-10 flex-col align-middle justify-center text-center w-full gap-5 overflow-hidden">
+      <div className="nav flex text-white text-lg mt-10 flex-col align-middle justify-center text-center w-full gap-5 overflow-hidden">
         <div data-aos="slide-down">
           <img
-            src={require("../assets/images/image.jpeg")}
+            src={require("../assets/images/image-2.png")}
             alt="Nitish Yadav"
             className="rounded-full border-solid cursor-pointer border-[8px] border-stone-600 min-h-fit  mx-auto max-md:w-[140px]  max-w-[190px]"
           />
@@ -93,7 +91,7 @@ export default function Slidebar() {
               </div>
               <div
                 onClick={() =>
-                  window.open("https://x.com/thisisnitishydv", "_blank")
+                  window.open("https://x.com/iamny_05", "_blank")
                 }
               >
                 <XIcon className="cursor-pointer hover:scale-105" />

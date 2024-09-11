@@ -23,7 +23,7 @@ export default function About() {
       <div className="flex flex-row  max-md:flex-col max-md:justify-center max-md:items-center max-md:ml-0  gap-6 ml-8">
         <div className="flex-col  mt-14 max-md:mt-5 flex flex-auto max-md:w-[90%] w-64 gap-6">
           <h3 className="text-3xl max-md:text-2xl font-medium" data-aos={"fade-left"}>
-            I'm <span className="text-yellow-600">Nitish Yadav,</span> a Web and Software
+            I'm <span className="text-blue-500">Nitish Yadav,</span> a Web and Software
             Enthusiast
           </h3>
           <p
@@ -36,13 +36,16 @@ export default function About() {
             className="text-justify leading-7 text-slate-900"
             data-aos={"fade-right"}
           >
-            I am currently looking for a Job. My proficiency with JavaScript, HTML, CSS, React.js, Next.js, Node.js, Express.js, and various database technologies like MySQL and MongoDB enabled me to build robust and scalable systems.
+          My proficiency with JavaScript, Python, Java, HTML-CSS, BootStrap, React.js, Next.js, Node.js, Express.js, SQL(MySQL), NoSQL(MongoDB), CI/CD pipelines, Docker, Kubernetes, Git & GitHub and AWS-Cloud .
+
           </p>
           <p
             className="text-justify leading-7 text-slate-900"
             data-aos={"fade-right"}
           >
-           My technical skills are complemented by a solid understanding of CI/CD pipelines, Docker, AWS-Cloud, and version control with Git & GitHub, ensuring that I can manage the complete lifecycle of web applications from development to deploymen
+          I have diverse professional background, having worked as a Backend Developer at SharpCareer Technologies and as a Full Stack Web Developer at TechPyro.
+           At SharpCareer, I was the Team Leader for a full-stack project, responsible for maintaining backend systems.
+            At TechPyro, I worked on the front-end and back-end development of multiple projects, including e-commerce and school websites.
           </p>
         </div>
 
@@ -67,7 +70,7 @@ export default function About() {
           
           <button className="py-3 max-md:py-1 max-md:mb-4 max-md:px-4 mt-5 text-white  max-md:text-center mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 animate-zoomy">
             <a
-               href={require("../../assets/files/Nitish_Yadav_Resume.pdf")}
+               href='https://drive.google.com/file/d/1kSHa5Fz6HUmWqewyKxAxm3zb0ws3uCsp/view?usp=sharing'
               download={"Nitish_Yadav_Resume.pdf"}
             >
               Download CV
