@@ -22,25 +22,25 @@ export default function About() {
       </div>
       <div className="flex flex-row  max-md:flex-col max-md:justify-center max-md:items-center max-md:ml-0  gap-6 ml-8">
         <div className="flex-col  mt-14 max-md:mt-5 flex flex-auto max-md:w-[90%] w-64 gap-6">
-          <h3 className="text-3xl max-md:text-2xl font-medium" data-aos={"fade-left"}>
-            I'm <span className="text-blue-500">Nitish Yadav,</span> a Web and Software
+          <h3 className="text-3xl font-serif max-md:text-2xl" data-aos={"fade-left"}>
+            I'm <span className="text-blue-500 font-serif">Nitish Yadav,</span > a Web and Software
             Enthusiast
           </h3>
           <p
-            className="pt-5 leading-7 text-slate-900 text-justify"
+            className="pt-5 leading-7 font-serif text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
            Currently, I am a senior undergraduate at Gurukula Kangri University, Haridwar, pursuing Bachelor of Technology degree in Computer Science and Engineering with a CGPA of 8.8
           </p>
           <p
-            className="text-justify leading-7 text-slate-900"
+            className="text-justify font-serif leading-7 text-slate-900"
             data-aos={"fade-right"}
           >
           My proficiency with JavaScript, Python, Java, HTML-CSS, BootStrap, React.js, Next.js, Node.js, Express.js, SQL(MySQL), NoSQL(MongoDB), CI/CD pipelines, Docker, Kubernetes, Git & GitHub and AWS-Cloud .
 
           </p>
           <p
-            className="text-justify leading-7 text-slate-900"
+            className="text-justify font-serif leading-7 text-slate-900"
             data-aos={"fade-right"}
           >
           I have diverse professional background, having worked as a Backend Developer at SharpCareer Technologies and as a Full Stack Web Developer at TechPyro.
