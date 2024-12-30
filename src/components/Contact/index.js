@@ -1,11 +1,8 @@
 import EmailIcon from "@mui/icons-material/Email";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import PersonIcon from "@mui/icons-material/Person";
-import FileDownloadDoneIcon from "@mui/icons-material/FileDownloadDone";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -156,7 +153,7 @@ export default function Contact(){
             <div className="mt-6 italic text-sm font-medium text-blue-500 ">
               <span className="pl-1 ">Copyright</span>
               <CopyrightIcon className="cursor-pointer mx-1" />
-              <span>2023 Nitish Yadav</span>
+              <span>2024 Nitish Yadav</span>
             </div>
           </div>
           </div>

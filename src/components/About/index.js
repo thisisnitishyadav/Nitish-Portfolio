@@ -30,7 +30,7 @@ export default function About() {
             className="pt-5 leading-7 font-serif text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
-           Currently, I am a senior undergraduate at Gurukula Kangri University, Haridwar, pursuing Bachelor of Technology degree in Computer Science and Engineering with a CGPA of 8.8
+          I am recently graduated from Gurukula Kangri University(GFTI), Uttarakhand, pursued B.Tech degree in Computer Science and Engineering with academic overall CGPA of 8.8
           </p>
           <p
             className="text-justify font-serif leading-7 text-slate-900"

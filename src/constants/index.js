@@ -1,27 +1,27 @@
 
 export const projects = [
   {
-    title: "Sharp Cuisine",
-    desc: "Developed and maintained Backend with MVC architecture using Express Framework. – Implemented OAuth for authentication and authorization ensuring secure access control ,used FastAPI for building APIs.",
+    title: "Chatbot : AI Finacial Assistant",
+    desc: "The AI Financial Chat Application allows users to interact with an AI assistant to get professional and detailed answers to financial questions. The app leverages OpenAI's API for natural language processing and is built with a React.js frontend and a Node.js backend.",
     tags: [
       {
-        name: "ExpressJs",
+        name: "NodeJs",
         color: "red-600",
       },
       {
-        name: "JavaScript",
+        name: "ReactJS",
         color: "yellow-600",
       },
       {
-        name: "MongoDB",
+        name: "ChatGPT API",
         color: "green-600",
       },
       {
-        name: "O-Auth",
+        name: "AI-Assistant",
         color: "green-600",
       },
       {
-        name: "Kubernetes",
+        name: "Vercel",
         color: "red-600",
       },
       {
@@ -33,12 +33,12 @@ export const projects = [
         color: "green-600",
       },
     ],
-    img: "https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?q=80&w=2738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    link: "https://sharp-cuisine.vercel.app/",
-    code: "https://github.com/thisisnitishyadav/Cuisine-Project",
+    img: "https://d1krbhyfejrtpz.cloudfront.net/blog/wp-content/uploads/2022/10/07132444/Chatbot-in-Finance.jpg",
+    link: "https://vercel.com/techpyros-projects/job-listing-app-frontend-seven",
+    code: "https://github.com/thisisnitishyadav/AI-Financial-Assistant",
   },
   {
-    title: "SoundHub",
+    title: "SoundHub : An E-commerce Website",
     desc: "Implemented key features, enhancing the platform with login, signup, cart, checkout, payment, order, and order details pages, as well as Google authentication, and a fully responsive design with crafted UI and UX Ensured responsiveness and streamlined product ordering with secure payment option of Razorpay",
     tags: [
       {
@@ -75,61 +75,69 @@ export const projects = [
     code: "https://github.com/thisisnitishyadav/boAt-Clone-frontend",
   },
   {
-    title: "Nyka Blog Website",
-    desc: "Developed a dynamic React.js and TypeScript project, utilizing the GraphQL API for real-time data retrieval. Implemented a user-friendly blog website performance through strategic optimization, featuring blog visibility through APIs",
+    title: "Sharp Cuisine : A Food Delivery App",
+    desc: "Developed and maintained Backend with MVC architecture using Express Framework. – Implemented OAuth for authentication and authorization ensuring secure access control ,used FastAPI for building APIs.",
     tags: [
       {
-        name: "ReactJs",
+        name: "ExpressJs",
         color: "red-600",
       },
       {
-        name: "ExpressJs",
+        name: "JavaScript",
+        color: "yellow-600",
+      },
+      {
+        name: "MongoDB",
         color: "green-600",
       },
       {
-        name: "MySQL",
-        color: "blue-800",
+        name: "O-Auth",
+        color: "green-600",
+      },
+      {
+        name: "Kubernetes",
+        color: "red-600",
+      },
+      {
+        name: "Docker",
+        color: "yellow-600",
+      },
+      {
+        name: "AWS",
+        color: "green-600",
+      },
+    ],
+    img: "https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?q=80&w=2738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    link: "https://sharp-cuisine.vercel.app/",
+    code: "https://github.com/thisisnitishyadav/Cuisine-Project",
+  },
+  {
+    title: "School Management System",
+    desc: "Streamline school management, class organization, and add students and faculty. Seamlessly track attendance, assess performance, and provide feedback.Access records, view marks, and communicate effortlessly.",
+    tags: [
+      {
+        name: "NextJs-14",
+        color: "red-600",
       },
       {
         name: "NodeJs",
-        color: "red-600",
-      },
-      {
-        name: "RESTful API",
         color: "green-600",
       },
       {
-        name: "BootStrap",
-        color: "blue-800",
-      },
-    ],
-    img: "https://images.unsplash.com/photo-1612817288484-6f916006741a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    link: "https://stock-market-seven.vercel.ap/",
-    code: "https://github.com/thisisnitishyadav/Techpyro-Blog-Website",
-  },
-  {
-    title: "Campground Management System",
-    desc: "Embark on a futuristic journey with our Taxi Booking Service, driven by the power of Next.js 14 and Hypergraph. Experience lightning-fast performance, dynamic real-time updates, and unparalleled reliability. Revolutionize your travel plans with a seamless fusion of cutting-edge technology for a ride-hailing experience like never before.",
-    tags: [
-      {
-        name: "NextJs 14",
-        color: "red-600",
-      },
-      {
-        name: "Hypergraph",
+        name: "O-Auth",
         color: "green-600",
       },
       {
-        name: "Tailwind Css",
+        name: "MongoDB",
         color: "blue-800",
       },
     ],
-    img: "https://plus.unsplash.com/premium_photo-1681823359242-2d61fbd1ca37?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    link: "https://taxi-booking-5gx2.vercel.app/",
-    code: "https://github.com/thisisnitishyadav/boAt-Clone-backend",
+    img: "https://www.sourcecodester.com/sites/default/files/images/Jatin_Zalavadiya/img-20160611-wa0002_0.jpg",
+    link: "https://school-management-frontend-vert.vercel.app/",
+    code: "https://github.com/thisisnitishyadav/School-Management-System",
   },
   {
-    title: "Education Website",
+    title: "Study Notion : An EdTech Website",
     desc: "This is the education website. In this website you can find admit card ,result and information of the school.",
     tags: [
       {
@@ -138,16 +146,20 @@ export const projects = [
       },
       {
         name: "Javascript",
-        color: "red-600",
+        color: "green-600",
       },
       
       {
-        name: "Responsive",
+        name: "NodeJs",
+        color: "yellow-600",
+      },
+      {
+        name: "ExpressJs",
         color: "green-600",
       },
       {
-        name: "Clean UI",
-        color: "green-600",
+        name: "MongoDB",
+        color: "blue-600",
       },
       {
         name: "TaiwindCSS",
