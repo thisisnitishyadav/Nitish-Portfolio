@@ -1,5 +1,4 @@
 {
-  "homepage": "https://daniel-jebarson.github.io",
   "name": "nitish-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -55,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "tailwindcss": "^3.3.2"
   }
 }

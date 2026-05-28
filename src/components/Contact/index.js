@@ -6,7 +6,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import * as LottiePlayer from "@lottiefiles/lottie-player";
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import XIcon from '@mui/icons-material/X';

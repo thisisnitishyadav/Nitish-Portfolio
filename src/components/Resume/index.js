@@ -91,7 +91,7 @@ export default function Resume() {
               Download Certificate
             </a>
           </li>
-          <li className="mb-10" data-aos="zoom-in" className="mt-8">
+          <li className="mb-10 mt-8" data-aos="zoom-in">
             <span className="absolute flex items-center justify-center w-6 h-6   rounded-full -left-3 ring-8  ring-gray-900 bg-blue-900">
               <svg
                 aria-hidden="true"
@@ -191,7 +191,7 @@ export default function Resume() {
               Download Certificate
             </a>
           </li>
-          <li className="mb-10" data-aos="zoom-out" data-aos-delay="700" className="mt-12">
+          <li className="mb-10 mt-12" data-aos="zoom-out" data-aos-delay="700">
             <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-gray-900 bg-blue-900">
               <svg
                 aria-hidden="true"
