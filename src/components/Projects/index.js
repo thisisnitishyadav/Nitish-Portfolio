@@ -7,12 +7,15 @@ export default function Projects() {
       className="min-h-screen flex flex-col justify-center text-center gap-10"
     >
       <div
-        className="font-extrabold  py-5 mt-10 text-5xl"
+        className="font-extrabold py-5 mt-10 text-5xl bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent"
         data-aos={"slide-up"}
         data-aos-duration={"700"}
       >
         Projects
       </div>
+      <p className="text-gray-400 max-w-2xl mx-auto text-lg" data-aos={"fade-up"}>
+        Explore my latest work including AI-powered solutions, full-stack applications, and innovative SaaS products
+      </p>
       <div className="flex flex-wrap flex-row justify-center w-full p-4 gap-12">
         {projects.map((project, ind) => {
           return (

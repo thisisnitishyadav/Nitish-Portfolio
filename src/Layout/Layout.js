@@ -31,11 +31,11 @@ class Layout extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div class="page">
-          <div className="flex max-md:block flex-row overflow-hidden">
+        <div className="page">
+          <div className="flex max-md:block flex-row">
             {this.props.children}
           </div>
-          <div class="cursor"></div>
+          <div className="cursor"></div>
         </div>
       </React.Fragment>
     );

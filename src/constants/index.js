@@ -1,7 +1,48 @@
 
 export const projects = [
   {
-    title: "Chatbot : AI Finacial Assistant",
+    title: "BeonicX : SaaS & AI Startup Platform",
+    desc: "Building BeonicX, a cutting-edge SaaS and AI startup platform. Developing intelligent solutions leveraging machine learning, artificial intelligence, and modern cloud technologies to deliver scalable, AI-powered applications for businesses.",
+    tags: [
+      {
+        name: "AI/ML",
+        color: "purple-600",
+      },
+      {
+        name: "Python",
+        color: "blue-600",
+      },
+      {
+        name: "TensorFlow",
+        color: "orange-600",
+      },
+      {
+        name: "Next.js",
+        color: "red-600",
+      },
+      {
+        name: "Node.js",
+        color: "green-600",
+      },
+      {
+        name: "AWS",
+        color: "yellow-600",
+      },
+      {
+        name: "Docker",
+        color: "blue-600",
+      },
+      {
+        name: "Kubernetes",
+        color: "purple-600",
+      },
+    ],
+    img: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    link: "#",
+    code: "#",
+  },
+  {
+    title: "Chatbot : AI Financial Assistant",
     desc: "The AI Financial Chat Application allows users to interact with an AI assistant to get professional and detailed answers to financial questions. The app leverages OpenAI's API for natural language processing and is built with a React.js frontend and a Node.js backend.",
     tags: [
       {
